@@ -3,11 +3,8 @@ import os
 print("Enter folder path")
 #It will return a absolute path name of the input passed to this function
 path = os.path.abspath(input())
-
-# for storing size of each
-# file
+# for storing size of each file
 size = 0
-
 # for storing the size of
 # the largest file
 max_size = 0
